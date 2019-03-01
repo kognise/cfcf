@@ -112,18 +112,18 @@ module.exports = (req, res) => {
     <meta name='description' content='Easily embeddable Chipflake emotes, entirely for free. I&apos;m pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
     <meta charset='utf-8'>
     <title>Chipflake, Chipflake!</title>
-    <meta name='description' content='Easily embeddable Chipflake emotes, entirely for free. I'm pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
+    <meta name='description' content='Easily embeddable Chipflake emotes, entirely for free. I&apos;m pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
     <meta name='image' content='https://cfcf.now.sh/neutral'>
     <meta itemprop='name' content='Chipflake, Chipflake!'>
-    <meta itemprop='description' content='Easily embeddable Chipflake emotes, entirely for free. I'm pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
+    <meta itemprop='description' content='Easily embeddable Chipflake emotes, entirely for free. I&apos;m pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
     <meta itemprop='image' content='https://cfcf.now.sh/neutral'>
     <meta name='twitter:card' content='summary'>
     <meta name='twitter:title' content='Chipflake, Chipflake!'>
-    <meta name='twitter:description' content='Easily embeddable Chipflake emotes, entirely for free. I'm pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
+    <meta name='twitter:description' content='Easily embeddable Chipflake emotes, entirely for free. I&apos;m pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
     <meta name='twitter:site' content='@ArchMaster666'>
     <meta name='twitter:image:src' content='https://cfcf.now.sh/neutral'>
     <meta name='og:title' content='Chipflake, Chipflake!'>
-    <meta name='og:description' content='Easily embeddable Chipflake emotes, entirely for free. I'm pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
+    <meta name='og:description' content='Easily embeddable Chipflake emotes, entirely for free. I&apos;m pretty sure that&apos;s all that needs to be said, just go the site and get started.'>
     <meta name='og:image' content='https://cfcf.now.sh/neutral'>
     <meta name='og:url' content='https://cfcf.now.sh/'>
     <meta name='og:site_name' content='Chipflake, Chipflake!'>
