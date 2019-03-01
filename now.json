@@ -8,6 +8,7 @@
   ],
   "routes": [
     { "src": "/", "dest": "/index.js" },
+    { "src": "/s/(?<emote>.+)/?", "dest": "/emote.js?emote=$emote&lowres=1" },
     { "src": "/(?<emote>.+)/?", "dest": "/emote.js?emote=$emote" }
   ]
 }

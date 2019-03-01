@@ -25,6 +25,12 @@ module.exports = (req, res) => {
       margin-top: 15px;
     }
 
+    code {
+      position: relative;
+      top: -1px;
+      font-weight: bold;
+    }
+
     strong, h2 {
       font-weight: 600;
     }
@@ -76,6 +82,24 @@ module.exports = (req, res) => {
       width: 100%;
       object-fit: cover;
     }
+
+    @media only screen and (max-width: 700px) {
+      .emotes {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media only screen and (max-width: 540px) {
+      .emotes {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media only screen and (max-width: 375px) {
+      .emotes {
+        grid-template-columns: 1fr;
+      }
+    }
   `
 
   res.end(`
@@ -95,7 +119,7 @@ module.exports = (req, res) => {
           ${emotesHtml}
         </div>
         <footer>
-          Made by <a href='#' target='_blank' rel='noopener'>Arch Master</a> on a whim.
+          Made by <a href='https://twitter.com/ArchMaster666' target='_blank' rel='noopener'>Arch Master</a> on a whim. Request <code>/&lt;emote&gt;</code> to for a normal emote, and <code>/s/&lt;emote&gt;</code> for a small version.
         </footer>
       </body>
     </html>

@@ -5,10 +5,10 @@ const { lookup, asyncStat } = require('./lib')
 
 module.exports = async (req, res) => {
   const { query } = parse(req.url, true)
-  const { emote } = query
+  const { emote, lowres } = query
   const lookedUp = lookup(emote)
   
-  const path = join(__dirname, 'images', lookedUp + '.png')
+  const path = join(__dirname, 'images', lowres ? 'lowres' : 'highres', lookedUp + '.png')
   const stats = await asyncStat(path)
 
   res.writeHead(200, {
