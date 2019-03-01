@@ -5,7 +5,7 @@ module.exports = (req, res) => {
   console.log(keysForEmote('neutral'))
   const emotesHtml = emotes.map((emote) => `
     <div class='emote'>
-      <img src='https://cfcf.now.sh/${emote}'>
+      <img src='/${emote}'>
       <h2>${capitalize(emote)}</h2>
       <ul>
         ${keysForEmote(emote).map((key) => `
