@@ -1,0 +1,13 @@
+{
+  "name": "cfcf",
+  "version": 2,
+  "alias": [ "cfcf" ],
+  "builds": [
+    { "src": "index.js", "use": "@now/node" },
+    { "src": "emote.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index.js" },
+    { "src": "/(?<emote>.+)/?", "dest": "/emote.js?emote=$emote" }
+  ]
+}
