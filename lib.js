@@ -52,6 +52,19 @@ const lookup = (emote) => {
   return map[emote] || map.default
 }
 
+const listEmotes = () => {
+  const values = Object.values(map)
+  return values.filter((emote, index) => values.indexOf(emote) === index)
+}
+
+const keysForEmote = (value) => {
+  return Object.keys(map).filter((key) => map[key] === value)
+}
+
+const capitalize = (string) => {
+  return string[0].toUpperCase() + string.substr(1)
+}
+
 const asyncStat = (path) => {
   return new Promise((resolve, reject) => {
     stat(path, (error, stats) => {
@@ -64,3 +77,6 @@ const asyncStat = (path) => {
 module.exports.lookup = lookup
 module.exports.map = map
 module.exports.asyncStat = asyncStat
+module.exports.listEmotes = listEmotes
+module.exports.keysForEmote = keysForEmote
+module.exports.capitalize = capitalize
