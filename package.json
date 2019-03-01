@@ -1,0 +1,10 @@
+{
+  "name": "cfcf",
+  "version": "1.0.0",
+  "description": "Chipflake, Chipflake!",
+  "main": "index.js",
+  "repository": "https://github.com/arch-lord/cfcf",
+  "author": "Felix Mattick <felix.mattick@gmail.com>",
+  "license": "UNLICENSE",
+  "private": true
+}
