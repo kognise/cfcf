@@ -83,6 +83,12 @@ module.exports = (req, res) => {
       object-fit: cover;
     }
 
+    .content-centered {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     @media only screen and (max-width: 700px) {
       .emotes {
         grid-template-columns: repeat(3, 1fr);
@@ -117,6 +123,15 @@ module.exports = (req, res) => {
         </h1>
         <div class='emotes'>
           ${emotesHtml}
+          <div class='emote content-centered'>
+            <h2>Something missing?</h2>
+            <p>
+              Want to suggest another emote? Feel free to contact me on <a href='https://twitter.com/ArchMaster666' target='_blank' rel='noopener'>Twitter</a> or at <code>archmaster#6356</code> on Discord.
+            </p>
+            <p>
+              I'm always happy to add new Chipflakes and want to create a useful collection for all your Chipflake-emoting needs.
+            </p>
+          </div>
         </div>
         <footer>
           Made by <a href='https://twitter.com/ArchMaster666' target='_blank' rel='noopener'>Arch Master</a> on a whim. Request <code>/&lt;emote&gt;</code> to for a normal emote, and <code>/s/&lt;emote&gt;</code> for a small version.

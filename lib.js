@@ -45,7 +45,17 @@ const map = {
   hallo: 'hello',
   smug: 'smug',
   yeah: 'smug',
-  mmm: 'smug'
+  mmm: 'smug',
+  scared: 'scared',
+  yikes: 'scared',
+  welp: 'scared',
+  aaaaa: 'scared',
+  help: 'scared',
+  freaky: 'scared',
+  spoopy: 'scared',
+  spooky: 'scared',
+  spooped: 'scared',
+  spooked: 'scared'
 }
 
 const lookup = (emote) => {
