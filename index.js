@@ -150,7 +150,7 @@ module.exports = (req, res) => {
           <div class='emote content-centered'>
             <h2>Something missing?</h2>
             <p>
-              Want to suggest another emote? Feel free to contact me on <a href='https://twitter.com/ArchMaster666' target='_blank' rel='noopener'>Twitter</a> or at <code>archmaster#6356</code> on Discord.
+              Want to suggest another emote? Feel free to contact me on <a href='https://twitter.com/kognise' target='_blank' rel='noopener'>Twitter</a> or at <code>kognise#6356</code> on Discord.
             </p>
             <p>
               I'm always happy to add new Chipflakes and want to create a useful collection for all your Chipflake-emoting needs.
@@ -158,7 +158,7 @@ module.exports = (req, res) => {
           </div>
         </div>
         <footer>
-          Made by <a href='https://twitter.com/ArchMaster666' target='_blank' rel='noopener'>Arch Master</a> on a whim. Request <code>/&lt;emote&gt;</code> to for a normal emote, and <code>/s/&lt;emote&gt;</code> for a small version.
+          Made by <a href='https://twitter.com/kognise' target='_blank' rel='noopener'>kognise</a> on a whim, and explores Zeit's design techniques. Request <code>/&lt;emote&gt;</code> to for a normal emote, and <code>/s/&lt;emote&gt;</code> for a small version.
         </footer>
       </body>
     </html>
