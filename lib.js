@@ -10,6 +10,7 @@ const map = {
   xd: 'happy',
   lmao: 'happy',
   lmfao: 'happy',
+  yeet: 'happy',
   neutral: 'neutral',
   idk: 'neutral',
   default: 'neutral',

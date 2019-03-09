@@ -1,7 +1,7 @@
 {
   "name": "cfcf",
   "version": 2,
-  "alias": [ "cfcf" ],
+  "alias": [ "cfcf", "chipflake.cf" ],
   "builds": [
     { "src": "index.js", "use": "@now/node" },
     { "src": "emote.js", "use": "@now/node" }
